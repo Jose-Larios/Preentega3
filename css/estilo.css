@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif; }
+
+.navegacion .div-general a img {
+  width: 200px;
+  padding: 0 30px; }
+
+.navegacion .div-general .div-enlaces {
+  display: flex;
+  flex-direction: row-reverse; }
+  .navegacion .div-general .div-enlaces ul li {
+    padding: 10px; }
+    .navegacion .div-general .div-enlaces ul li a {
+      text-decoration: none;
+      color: black; }
+
+.header {
+  background-color: green; }
+  .header h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0; }
+
+.index .index-imagen {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+
+.index .index-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .index .index-titulo h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0 0 0;
+    width: 850px;
+    border: solid 5px aqua;
+    border-radius: 10px; }
+  .index .index-titulo p {
+    padding: 20px;
+    margin: 30px 0 0 0;
+    width: 850px;
+    margin: 0 0 30px 0;
+    border: solid 5px aqua;
+    border-radius: 10px; }
+
+.equipo .equipo-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .equipo .equipo-titulo h2 {
+    text-align: center;
+    padding: 20px; }
+  .equipo .equipo-titulo p {
+    text-align: center;
+    padding: 20px 100px 20px 100px; }
+  .equipo .equipo-titulo img {
+    width: 750px;
+    padding: 20px; }
+
+.equipo .equipo-trabajadores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px; }
+  .equipo .equipo-trabajadores img {
+    width: 288px; }
+  .equipo .equipo-trabajadores h5 {
+    text-align: center; }
+
+.recorridos .recorridos-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .recorridos .recorridos-titulo h2 {
+    text-align: center;
+    padding: 20px; }
+  .recorridos .recorridos-titulo p {
+    text-align: center;
+    padding: 20px 100px 20px 100px; }
+  .recorridos .recorridos-titulo img {
+    width: 750px; }
+
+.recorridos .recorridos-horarios {
+  background-color: green; }
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .ubicacion h2 {
+    text-align: center;
+    padding: 20px; }
+  .ubicacion p {
+    text-align: center;
+    padding: 20px 150px 20px 150px; }
+  .ubicacion iframe {
+    padding: 20px;
+    width: 75%; }
+
+.contacto h2 {
+  text-align: center;
+  padding: 20px; }
+
+.contacto p {
+  text-align: center;
+  padding: 20px 150px 20px 150px; }
+
+.contacto div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .contacto div img {
+    width: 700px;
+    padding: 20px; }
+  .contacto div form {
+    padding: 20px; }
+
+.footer {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .footer div {
+    display: flex;
+    flex-direction: column; }
+    .footer div h5 {
+      padding: 20px; }
+  .footer ul li {
+    list-style: none; }
+    .footer ul li a {
+      text-decoration: none;
+      color: black;
+      padding: 20px; }

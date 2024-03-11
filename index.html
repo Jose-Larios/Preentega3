@@ -7,13 +7,16 @@
   <!-- Link de boostrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Link del css -->
+  <link rel="stylesheet" href="./css/estilo.css">
   <title>Purificadora Gotita</title>
 </head>
 
 <body>
+
   <!-- Barra de navegacion -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navegacion">
+    <div class="container-fluid div-general">
       <!-- Logo -->
       <a class="navbar-brand" href="./index.html"><img src="./recursos/logo.png!sw800" alt="Logo"></a>
       <!-- Boton hamburguesa -->
@@ -21,7 +24,7 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse div-enlaces" id="navbarNav">
         <!-- Lista de enlaces -->
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
@@ -36,27 +39,31 @@
 
   <!-- Encabezado -->
 
-  <head>
+  <header class="header">
     <h1>Agua de la mejor calidad, 100% agua de manantial</h1>
-  </head>
+  </header>
 
   <!-- Contenido principal -->
-  <main>
-    <img src="./recursos/videoPromocional.gif" alt="Video promocional">
-    <h2>Quienes somos</h2>
-    <p>Bienvenido a la Purificadora de agua Gotita, su fuente confiable para obtener agua pura y
-      segura en todo momento. En un mundo donde la calidad del agua es fundamental para la salud y el bienestar,
-      nos enorgullece ofrecer soluciones innovadoras y efectivas que garantizan la pureza del agua que usted y su
-      familia consumen. Nuestro compromiso con la excelencia se refleja en cada aspecto de nuestro proceso de
-      purificación. Desde la cuidadosa selección de los mejores materiales hasta la implementación de tecnologías
-      avanzadas, nos esforzamos por superar las expectativas y proporcionarle agua de la más alta calidad posible.
-      Ya sea para el consumo doméstico, en entornos comerciales o comunitarios, estamos aquí para brindarle la
-      tranquilidad que proviene de saber que su agua ha sido tratada con los más altos estándares de calidad y
-      seguridad. Descubra cómo nuestra dedicación a la pureza del agua puede marcar la diferencia en su vida
-      diaria.</p>
+  <main  class="index">
+    <div class="index-imagen">
+      <img src="./recursos/videoPromocional.gif" alt="Video promocional">
+    </div>
+    <section class="index-titulo">
+        <h2>Quienes somos</h2>
+        <p>Bienvenido a la Purificadora de agua Gotita, su fuente confiable para obtener agua pura y
+          segura en todo momento. En un mundo donde la calidad del agua es fundamental para la salud y el bienestar,
+          nos enorgullece ofrecer soluciones innovadoras y efectivas que garantizan la pureza del agua que usted y su
+          familia consumen. Nuestro compromiso con la excelencia se refleja en cada aspecto de nuestro proceso de
+          purificación. Desde la cuidadosa selección de los mejores materiales hasta la implementación de tecnologías
+          avanzadas, nos esforzamos por superar las expectativas y proporcionarle agua de la más alta calidad posible.
+          Ya sea para el consumo doméstico, en entornos comerciales o comunitarios, estamos aquí para brindarle la
+          tranquilidad que proviene de saber que su agua ha sido tratada con los más altos estándares de calidad y
+          seguridad. Descubra cómo nuestra dedicación a la pureza del agua puede marcar la diferencia en su vida
+          diaria.</p>
+    </section>
 
     <!-- Grilla -->
-    <section>
+    <section class="grilla">
       <!-- Parte 1 de la grilla -->
       <div>
         <h4>Nuestro futuro</h4>
@@ -117,6 +124,21 @@
       </div>
     </section>
   </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div>
+      <h5>Purificadora Gotita</h5>
+      <h5>Agua de la mejor calidad, 100% agua de manantial</h5>
+    </div>
+    <ul>
+      <li><a target="_blank" href="https://www.facebook.com/">Facebook</a></li>
+      <li><a target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+      <li><a target="_blank" href="https://www.tiktok.com/">Tik tok</a></li>
+      <li><a target="_blank" href="https://twitter.com/">Twitter</a></li>
+    </ul>
+  </footer>
+
   <!-- JS de Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

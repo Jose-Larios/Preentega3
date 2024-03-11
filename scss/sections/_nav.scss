@@ -1,0 +1,23 @@
+.navegacion{
+    .div-general{
+        a{
+            img{
+                width: 200px;
+                padding: 0 30px;
+            }
+        }
+        .div-enlaces{
+            display: flex;
+            flex-direction: row-reverse;
+            ul{
+                li{
+                    padding: 10px;
+                    a{
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.equipo{
+    .equipo-titulo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            text-align: center;
+            padding: 20px;
+        }
+        p{
+            text-align: center;
+            padding: 20px 100px 20px 100px;
+        }
+        img{
+            width: 750px;
+            padding: 20px;
+        }
+    }
+    .equipo-trabajadores{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 50px;
+        img{
+            width: 288px;
+        }
+        h5{
+            text-align: center;
+        }
+    }
+}

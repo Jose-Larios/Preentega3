@@ -1,0 +1,31 @@
+.index {
+    .index-imagen {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .index-titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            text-align: center;
+            padding: 20px;
+            margin: 30px 0 0 0;
+            width: 850px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+        }
+
+        p {
+            padding: 20px;
+            margin: 30px 0 0 0;
+            width: 850px;
+            margin: 0 0 30px 0;
+            border: solid 5px aqua;
+            border-radius: 10px;
+        }
+    }
+}
