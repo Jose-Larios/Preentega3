@@ -1,21 +1,72 @@
-.recorridos{
-    .recorridos-titulo{
+.recorridos {
+    .recorridos-titulo {
         display: flex;
         flex-direction: column;
         align-items: center;
-        h2{
+
+        h2 {
             text-align: center;
             padding: 20px;
         }
-        p{
+
+        p {
             text-align: center;
             padding: 20px 100px 20px 100px;
         }
-        img{
+
+        img {
             width: 750px;
         }
     }
-    .recorridos-horarios{
-        background-color: green;
+
+    .recorridos-horarios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 30px 200px;
+        grid-template-areas:
+            "recorrido1 recorrido2 recorrido2"
+            "recorrido1 recorrido3 recorrido3"
+            "recorrido4 recorrido4 recorrido4"
+        ;
+
+        .recorrido1 {
+            grid-area: recorrido1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+        }
+
+        .recorrido2 {
+            grid-area: recorrido2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+        }
+
+        .recorrido3 {
+            grid-area: recorrido3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+        }
+
+        .recorrido4 {
+            grid-area: recorrido4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+        }
     }
 }

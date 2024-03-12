@@ -28,4 +28,77 @@
             border-radius: 10px;
         }
     }
+
+    .index-grilla {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 30px 200px;
+        grid-template-areas:
+            "filtros filtros filtros"
+            "futuro precios garrafon"
+            "futuro horarios garrafon"
+        ;
+        .futuro{
+            grid-area: futuro;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+            img{
+                width: 250px;
+            }
+        }
+        .filtros{
+            grid-area: filtros;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+        }
+        .garrafon{
+            grid-area: garrafon;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+            img{
+                width: 300px;
+            }
+        }
+        .horarios{
+            grid-area: horarios;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+            div{
+                padding: 20px;
+                border: solid 5px aqua;
+                border-radius: 10px;
+            }
+        }
+        .precios{
+            grid-area: precios;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: solid 5px aqua;
+            border-radius: 10px;
+            div{
+                padding: 20px;
+                border: solid 5px aqua;
+                border-radius: 10px;
+            }
+        }
+    }
 }
