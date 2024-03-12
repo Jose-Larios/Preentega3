@@ -1,16 +1,23 @@
-.navegacion{
-    .div-general{
-        a{
-            img{
+.navegacion {
+    .div-general {
+        a {
+            img {
                 height: 70px;
                 padding: 0 40px;
             }
         }
-        .div-enlaces{
-            ul{
-                li{
+
+        .div-enlaces {
+            ul {
+                li {
                     padding: 5px;
-                    a{
+
+                    a {
+                        &:hover {
+                            background-color: rgb(255, 255, 255);
+                            color: rgb(0, 0, 0);
+                        }
+
                         text-decoration: none;
                         color: rgb(0, 0, 0);
                     }

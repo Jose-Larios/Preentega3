@@ -1,5 +1,6 @@
 .recorridos {
     background-image: linear-gradient(#0075A2, #00FFC5);
+
     .recorridos-titulo {
         display: flex;
         flex-direction: column;
@@ -71,6 +72,26 @@
             padding: 20px;
             border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
+        }
+    }
+}
+
+/* Medias Querys*/
+@media (max-width:1000px) {
+    .recorridos {
+        .recorridos-titulo {
+            img {
+                width: 400px;
+            }
+        }
+
+        .recorridos-horarios {
+            display: flex;
+            flex-direction: column;
+
+            section {
+                margin: 20px;
+            }
         }
     }
 }

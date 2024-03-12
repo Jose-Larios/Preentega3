@@ -1,35 +1,63 @@
-.equipo{
+.equipo {
     background-image: linear-gradient(#0075A2, #00FFC5);
-    .equipo-titulo{
+
+    .equipo-titulo {
         display: flex;
         flex-direction: column;
         align-items: center;
-        h2{
+
+        h2 {
             animation-name: latido;
             animation-duration: 3s;
             animation-iteration-count: infinite;
             text-align: center;
             padding: 20px;
         }
-        p{
+
+        p {
             text-align: center;
             padding: 20px 100px 20px 100px;
         }
-        img{
+
+        img {
             width: 750px;
             padding: 20px;
         }
     }
-    .equipo-trabajadores{
+
+    .equipo-trabajadores {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 50px;
-        img{
+
+        img {
             width: 288px;
         }
-        h5{
+
+        h5 {
             text-align: center;
+        }
+    }
+}
+
+/* Medias Querys*/
+@media (max-width:1000px) {
+    .equipo {
+        .equipo-titulo {
+            img {
+                width: 350px;
+            }
+        }
+
+        .equipo-trabajadores {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .card {
+                margin: 20px;
+            }
         }
     }
 }

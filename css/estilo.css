@@ -32,6 +32,11 @@
   color: black;
 }
 
+.navegacion .div-general .div-enlaces ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
 .header {
   background-image: linear-gradient(#cfe2ff00, #cfe2ffe1);
 }
@@ -156,6 +161,22 @@
   border-radius: 10px;
 }
 
+/* Medias Querys */
+@media (max-width: 1250px) {
+  .index .index-imagen img {
+    width: 500px;
+  }
+
+  .index .index-grilla {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .index .index-grilla article {
+    margin: 20px;
+  }
+}
+
 .equipo {
   background-image: linear-gradient(#0075A2, #00FFC5);
 }
@@ -197,6 +218,23 @@
 
 .equipo .equipo-trabajadores h5 {
   text-align: center;
+}
+
+/* Medias Querys*/
+@media (max-width: 1000px) {
+  .equipo .equipo-titulo img {
+    width: 350px;
+  }
+
+  .equipo .equipo-trabajadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .equipo .equipo-trabajadores .card {
+    margin: 20px;
+  }
 }
 
 .recorridos {
@@ -275,6 +313,22 @@
   border-radius: 10px;
 }
 
+/* Medias Querys*/
+@media (max-width: 1000px) {
+  .recorridos .recorridos-titulo img {
+    width: 400px;
+  }
+
+  .recorridos .recorridos-horarios {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recorridos .recorridos-horarios section {
+    margin: 20px;
+  }
+}
+
 .ubicacion {
   background-image: linear-gradient(#0075A2, #00FFC5);
   display: flex;
@@ -330,6 +384,18 @@
 
 .contacto div form {
   padding: 20px;
+}
+
+/* Medias Querys*/
+@media (max-width: 1000px) {
+  .contacto div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacto div img {
+    width: 500px;
+  }
 }
 
 .footer {

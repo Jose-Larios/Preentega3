@@ -1,5 +1,6 @@
 .contacto {
     background-image: linear-gradient(#0075A2, #00FFC5);
+
     h2 {
         animation-name: latido;
         animation-duration: 3s;
@@ -25,6 +26,20 @@
 
         form {
             padding: 20px;
+        }
+    }
+}
+
+/* Medias Querys*/
+@media (max-width:1000px) {
+    .contacto {
+        div {
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 500px;
+            }
         }
     }
 }
