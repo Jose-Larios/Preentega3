@@ -1,5 +1,9 @@
 .contacto {
+    background-image: linear-gradient(#0075A2, #00FFC5);
     h2 {
+        animation-name: latido;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
         text-align: center;
         padding: 20px;
     }

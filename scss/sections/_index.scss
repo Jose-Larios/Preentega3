@@ -1,4 +1,5 @@
 .index {
+    background-image: linear-gradient(#0075A2, #00FFC5);
     .index-imagen {
         display: flex;
         justify-content: center;
@@ -15,7 +16,7 @@
             padding: 20px;
             margin: 30px 0 0 0;
             width: 850px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
         }
 
@@ -24,7 +25,7 @@
             margin: 30px 0 0 0;
             width: 850px;
             margin: 0 0 30px 0;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
         }
     }
@@ -44,7 +45,7 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
             img{
                 width: 250px;
@@ -56,7 +57,7 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
         }
         .garrafon{
@@ -66,7 +67,7 @@
             align-items: center;
             justify-content: space-around;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
             img{
                 width: 300px;
@@ -78,11 +79,11 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
             div{
                 padding: 20px;
-                border: solid 5px aqua;
+                border: solid 5px rgba(0, 0, 0, 0.200);
                 border-radius: 10px;
             }
         }
@@ -92,11 +93,11 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
             div{
                 padding: 20px;
-                border: solid 5px aqua;
+                border: solid 5px rgba(0, 0, 0, 0.200);
                 border-radius: 10px;
             }
         }

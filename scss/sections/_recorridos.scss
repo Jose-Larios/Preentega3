@@ -1,10 +1,14 @@
 .recorridos {
+    background-image: linear-gradient(#0075A2, #00FFC5);
     .recorridos-titulo {
         display: flex;
         flex-direction: column;
         align-items: center;
 
         h2 {
+            animation-name: latido;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
             text-align: center;
             padding: 20px;
         }
@@ -35,7 +39,7 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
         }
 
@@ -45,7 +49,7 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
         }
 
@@ -55,7 +59,7 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
         }
 
@@ -65,7 +69,7 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            border: solid 5px aqua;
+            border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
         }
     }

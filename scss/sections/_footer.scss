@@ -1,5 +1,5 @@
 .footer {
-    background-color: red;
+    background-image: linear-gradient(#cfe2ff, #cfe2ff00);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -7,20 +7,20 @@
     div {
         display: flex;
         flex-direction: column;
-
-        h5 {
-            padding: 20px;
+        h6 {
+            padding: 5px;
         }
     }
 
     ul {
+        display: flex;
         li {
             list-style: none;
-
+            padding: 10px;
             a {
                 text-decoration: none;
                 color: black;
-                padding: 20px;
+                padding: 10px;
             }
         }
     }
