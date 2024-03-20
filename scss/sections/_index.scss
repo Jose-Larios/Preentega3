@@ -1,3 +1,4 @@
+// Css de index
 .index {
     background-image: linear-gradient(#0075A2, #00FFC5);
 
@@ -114,22 +115,22 @@
     }
 }
 
-/* Medias Querys */
+/* Medias Querys de index*/
 @media (max-width:1250px) {
     .index {
         .index-imagen {
             img {
-                width: 400px;
+                width: 350px;
             }
         }
 
         .index-titulo {
             h2 {
-                width: 400px;
+                width: 350px;
             }
 
             p {
-                width: 400px;
+                width: 350px;
             }
         }
 
@@ -137,10 +138,56 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: 30px 100px;
 
             article {
-                width: 400px;
+                width: 350px;
                 margin: 20px;
+            }
+        }
+    }
+}
+
+/* Medias Querys de index*/
+@media (max-width:500px) {
+    .index {
+        .index-imagen {
+            img {
+                width: 150px;
+            }
+        }
+
+        .index-titulo {
+            h2 {
+                width: 150px;
+            }
+
+            p {
+                width: 150px;
+            }
+        }
+
+        .index-grilla {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0;
+
+            article {
+                width: 150px;
+                margin: 20px;
+            }
+
+            .garrafon {
+                img {
+                    width: 100px;
+                }
+            }
+
+            .futuro {
+                img {
+                    width: 100px;
+                }
             }
         }
     }

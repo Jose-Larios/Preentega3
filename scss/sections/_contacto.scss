@@ -1,3 +1,4 @@
+// Css de contacto
 .contacto {
     background-image: linear-gradient(#0075A2, #00FFC5);
 
@@ -30,15 +31,19 @@
     }
 }
 
-/* Medias Querys*/
+/* Medias Querys de contacto*/
 @media (max-width:1000px) {
     .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         div {
             flex-direction: column;
             align-items: center;
 
             img {
-                width: 500px;
+                width: 350px;
             }
         }
     }

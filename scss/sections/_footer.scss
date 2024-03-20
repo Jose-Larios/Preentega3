@@ -1,8 +1,10 @@
+// Css de footer
 .footer {
     background-image: linear-gradient(#cfe2ff, #cfe2ff00);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
     div {
         display: flex;

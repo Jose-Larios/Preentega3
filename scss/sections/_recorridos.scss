@@ -1,3 +1,4 @@
+// Css de recorridos
 .recorridos {
     background-image: linear-gradient(#0075A2, #00FFC5);
 
@@ -76,12 +77,12 @@
     }
 }
 
-/* Medias Querys*/
+/* Medias Querys de recorridos*/
 @media (max-width:1000px) {
     .recorridos {
         .recorridos-titulo {
             img {
-                width: 400px;
+                width: 350px;
             }
         }
 
@@ -89,10 +90,34 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: 30px 100px;
 
             section {
-                width: 400px;
+                width: 350px;
                 margin: 20px;
+            }
+        }
+    }
+}
+
+/* Medias Querys de recorridos*/
+@media (max-width:500px) {
+    .recorridos {
+        .recorridos-titulo {
+            img {
+                width: 150px;
+            }
+        }
+
+        .recorridos-horarios {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0;
+
+            section {
+                width: 150px;
+                margin: 5px;
             }
         }
     }
