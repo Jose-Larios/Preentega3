@@ -119,15 +119,27 @@
     .index {
         .index-imagen {
             img {
-                width: 500px;
+                width: 400px;
+            }
+        }
+
+        .index-titulo {
+            h2 {
+                width: 400px;
+            }
+
+            p {
+                width: 400px;
             }
         }
 
         .index-grilla {
             display: flex;
             flex-direction: column;
+            align-items: center;
 
             article {
+                width: 400px;
                 margin: 20px;
             }
         }
