@@ -1,21 +1,19 @@
 // Css de index
 .index {
-    background-image: linear-gradient(#0075A2, #00FFC5);
+    background-image: $fondo;
 
     .index-imagen {
         display: flex;
         justify-content: center;
-        padding: 20px;
+        padding: $distancia;
     }
 
     .index-titulo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @extend .flex-centrado;
 
         h2 {
             text-align: center;
-            padding: 20px;
+            padding: $distancia;
             margin: 30px 0 0 0;
             width: 850px;
             border: solid 5px rgba(0, 0, 0, 0.200);
@@ -23,7 +21,7 @@
         }
 
         p {
-            padding: 20px;
+            padding: $distancia;
             margin: 30px 0 0 0;
             width: 850px;
             margin: 0 0 30px 0;
@@ -43,11 +41,9 @@
         ;
 
         .futuro {
+            @extend .flex-centrado;
             grid-area: futuro;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
+            padding: $distancia;
             border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
 
@@ -57,22 +53,18 @@
         }
 
         .filtros {
+            @extend .flex-centrado;
             grid-area: filtros;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
+            padding: $distancia;
             border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
         }
 
         .garrafon {
+            @extend .flex-centrado;
             grid-area: garrafon;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: space-around;
-            padding: 20px;
+            padding: $distancia;
             border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
 
@@ -82,32 +74,28 @@
         }
 
         .horarios {
+            @extend .flex-centrado;
             grid-area: horarios;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
+            padding: $distancia;
             border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
 
             div {
-                padding: 20px;
+                padding: $distancia;
                 border: solid 5px rgba(0, 0, 0, 0.200);
                 border-radius: 10px;
             }
         }
 
         .precios {
+            @extend .flex-centrado;
             grid-area: precios;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
+            padding: $distancia;
             border: solid 5px rgba(0, 0, 0, 0.200);
             border-radius: 10px;
 
             div {
-                padding: 20px;
+                padding: $distancia;
                 border: solid 5px rgba(0, 0, 0, 0.200);
                 border-radius: 10px;
             }
@@ -142,7 +130,7 @@
 
             article {
                 width: 350px;
-                margin: 20px;
+                margin: $distancia;
             }
         }
     }
@@ -175,7 +163,7 @@
 
             article {
                 width: 150px;
-                margin: 20px;
+                margin: $distancia;
             }
 
             .garrafon {

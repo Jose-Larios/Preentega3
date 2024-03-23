@@ -20,12 +20,12 @@
 
         li {
             list-style: none;
-            padding: 10px;
+            padding: $distancia;
 
             a {
                 text-decoration: none;
                 color: black;
-                padding: 10px;
+                padding: $distancia;
             }
         }
     }

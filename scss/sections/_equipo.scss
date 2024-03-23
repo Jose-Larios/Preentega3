@@ -1,28 +1,26 @@
 // Css de equipo
 .equipo {
-    background-image: linear-gradient(#0075A2, #00FFC5);
+    background-image: $fondo;
 
     .equipo-titulo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @extend .flex-centrado;
 
         h2 {
             animation-name: latido;
             animation-duration: 3s;
             animation-iteration-count: infinite;
             text-align: center;
-            padding: 20px;
+            padding: $distancia;
         }
 
         p {
             text-align: center;
-            padding: 20px 100px 20px 100px;
+            padding: $distancia 100px $distancia 100px;
         }
 
         img {
             width: 750px;
-            padding: 20px;
+            padding: $distancia;
         }
     }
 
@@ -57,7 +55,7 @@
             align-items: center;
 
             .card {
-                margin: 20px;
+                margin: $distancia;
             }
         }
     }

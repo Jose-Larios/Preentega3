@@ -1,18 +1,18 @@
 // Css de contacto
 .contacto {
-    background-image: linear-gradient(#0075A2, #00FFC5);
+    background-image: $fondo;
 
     h2 {
         animation-name: latido;
         animation-duration: 3s;
         animation-iteration-count: infinite;
         text-align: center;
-        padding: 20px;
+        padding: $distancia;
     }
 
     p {
         text-align: center;
-        padding: 20px 150px 20px 150px;
+        padding: $distancia 150px $distancia 150px;
     }
 
     div {
@@ -22,11 +22,11 @@
 
         img {
             width: 700px;
-            padding: 20px;
+            padding: $distancia;
         }
 
         form {
-            padding: 20px;
+            padding: $distancia;
         }
     }
 }
